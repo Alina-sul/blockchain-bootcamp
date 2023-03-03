@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleString.sol": "ExampleBoolean"
+			"contracts/ExampleBoolean.sol": "ExampleBoolean"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleString.sol": {
+		"contracts/ExampleBoolean.sol": {
 			"keccak256": "0xc0624c2c2585c073623a3a74adbcecc49dfe8c7c8f06d93075af2fa850d5d483",
 			"license": "MIT",
 			"urls": [
