@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "myInt",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "myUint",
 				"outputs": [
 					{
@@ -60,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/ExampleUint.sol": {
-			"keccak256": "0x50ada5d5f268f3280895eb0e542d80977c75bda4aca9e708e977e8bc29bd422b",
+			"keccak256": "0x91058372d1f04650b5313dc07bb845a71455c6345e2b7459d88ece126fab5fa2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://84207201acb65273de7d483fc618a35f7afe815ee8fcd0c60a49e11bc9a60d2b",
-				"dweb:/ipfs/QmdvFRYvd5SWsNqoovs1KGNC2puvEWohVDQA2BL8a92gPU"
+				"bzz-raw://2e5fad74c246984e9649e34364b4ec5688605a503cd137eb1c8bd58936420c55",
+				"dweb:/ipfs/QmVC7gfPHp2tuTeshAsAwr9Pjs6ST87UggZrDBC8W7xnSQ"
 			]
 		}
 	},
