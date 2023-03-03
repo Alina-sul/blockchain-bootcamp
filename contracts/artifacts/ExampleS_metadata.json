@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleString.sol": "ExampleBoolean"
+			"contracts/ExampleString.sol": "ExampleS"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/ExampleString.sol": {
-			"keccak256": "0xc0624c2c2585c073623a3a74adbcecc49dfe8c7c8f06d93075af2fa850d5d483",
+			"keccak256": "0x1c3ef82808f9e322e250e46ff4f9e25375a055160bc2950b8453b637377687d1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://542ac76a39d55a91588230a494c44380ea987c187f88b24361847344aa317065",
-				"dweb:/ipfs/QmWYFQr6fk9oJEnPYnwRHasozErYWc7TVFNKstXFTRdVo8"
+				"bzz-raw://7e9b40dd22b5b149f6950e9689b69abfd65cdd1e5c7b29af646ca219b4bc46ac",
+				"dweb:/ipfs/QmYAFbURAGyFFLfwEGvKCKNB1HGdMTdRfsXKQMrP6cRsmU"
 			]
 		}
 	},
