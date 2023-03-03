@@ -82,7 +82,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleViewPure.sol": "ExampleViewPure"
+			"contracts/TheBlockChainMessenger.sol": "TheBlockC"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -96,12 +96,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleViewPure.sol": {
-			"keccak256": "0x49c3b109ca83176d53f442d6e2fc54e2d1bd287fce8a61e33de2962f43fc773d",
+		"contracts/TheBlockChainMessenger.sol": {
+			"keccak256": "0x086fd02d67dd27bac80a54f6cc5de16be86af93a46e8595ca560e3bd78b1e169",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0d533d5cb8e2e8560af9a6ee39aeefcc6c7050eaf8fdc1850a5b0c8641024e47",
-				"dweb:/ipfs/QmcQmCbc7gFNZnMYchxWEm86rRQQZyTPrMAZWwL7x5M3Gs"
+				"bzz-raw://503dc7e31bf270c774e7730fcd451c2027f8fb76154d4eaa15dfd64dac821fdc",
+				"dweb:/ipfs/QmSrRyHsmhBWUeZRGZck3qK2dkkCH4M85qEwVjsiNQECQR"
 			]
 		}
 	},

@@ -2,31 +2,37 @@
 
 pragma solidity 0.8.15;
 
-contract ExampleViewPure {
+/*
+* The contract should:
+* - store a string
+* - be readeable to all but write access should be only to the one deploying the blockchain
+* - count of message updates
+*/
 
-    uint public myStorageVariable;
+contract TheBlockChainMessenger {
 
-    /* Two kinds of reading functions:
-    /* view - can access storage variable (outside the scope of the function) but cannot write them
-    /* pure - can only call variables from function scope or other pure functions
-    */
+    string public storageMessage = "Hello World!"; // init message
+    address public owner;
+    uint public messageUpdates; // counter
 
-    function getMyStorageVariable() public view returns(uint) {
-        return myStorageVariable;
-    }    
-
-    function getAddition(uint a, uint b) public pure returns(uint) {
-        return a+b;
+    constructor(){
+        owner = msg.sender;
     }
 
-    /* Writing function:
-    /* can write to storage variables on the blockchain - expensive.
-    /* Usualy do not have return values! If it does have, only for other contracts.
-    */
+    function getMessage() public view returns(string memory) {
+        return storageMessage;
+    } 
 
-    function setMyStorageVariable(uint _newVar) public {
-        myStorageVariable = _newVar;
+    function getUpdatesCount() public view returns(uint) {
+        return messageUpdates;
     }
 
+    function setMessage(string memory _newMessage) public {
+        if(msg.sender == owner) {
+            storageMessage = _newMessage;
+            messageUpdates++;
+        }
+    }
+ 
 
 }

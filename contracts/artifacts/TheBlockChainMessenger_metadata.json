@@ -6,32 +6,26 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"name": "getAddition",
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getMessage",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getMyStorageVariable",
+				"name": "getUpdatesCount",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -44,7 +38,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "myStorageVariable",
+				"name": "messageUpdates",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -56,16 +50,42 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "_newVar",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "setMyStorageVariable",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newMessage",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "storageMessage",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -82,7 +102,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleViewPure.sol": "ExampleViewPure"
+			"contracts/TheBlockChainMessenger.sol": "TheBlockChainMessenger"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -96,12 +116,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleViewPure.sol": {
-			"keccak256": "0x49c3b109ca83176d53f442d6e2fc54e2d1bd287fce8a61e33de2962f43fc773d",
+		"contracts/TheBlockChainMessenger.sol": {
+			"keccak256": "0x406147bd9ee7d2b6a408701ff290e282ddf5728d85f4e6cdf05369b22070506e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0d533d5cb8e2e8560af9a6ee39aeefcc6c7050eaf8fdc1850a5b0c8641024e47",
-				"dweb:/ipfs/QmcQmCbc7gFNZnMYchxWEm86rRQQZyTPrMAZWwL7x5M3Gs"
+				"bzz-raw://1c860e152b2024a5baa9eeadace04e10c0c0f085d3cfe33bfe55e13135de15d3",
+				"dweb:/ipfs/QmdsZ8X2cpKvS5kxsRaTWhA6J2FsJnwuGsqzGT4QpUyGV1"
 			]
 		}
 	},
