@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "payContract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Basics/ExampleStruct.sol": "Wallet"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Basics/ExampleStruct.sol": {
+			"keccak256": "0x001ea72f055f7c096349630568369b0e53d12ce7cc715eae062584f3976b4f3d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://67070c266bcf8c15fe6cf187bd867e15f083335656268732a9023904024360b3",
+				"dweb:/ipfs/QmXq5chWU1HXUa6KqnfSrFRjXbxYWqVwhXyxfNzG6BpaqX"
+			]
+		}
+	},
+	"version": 1
+}
