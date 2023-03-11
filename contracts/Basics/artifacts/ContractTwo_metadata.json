@@ -8,25 +8,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_to",
+						"internalType": "address",
+						"name": "_contractOne",
 						"type": "address"
 					}
 				],
-				"name": "withdrawSend",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
-					}
-				],
-				"name": "withdrawTransfer",
+				"name": "depositOnContractOne",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -49,7 +36,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics/wallet/ExampleSendTransferLowLevel.sol": "Send"
+			"contracts/Basics/ExampleContractCall.sol": "ContractTwo"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -63,12 +50,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics/wallet/ExampleSendTransferLowLevel.sol": {
-			"keccak256": "0x5aa93daa21202ccc25fb53b53e653a6c9b9d4fa3f320cfd1826491f082118bb1",
+		"contracts/Basics/ExampleContractCall.sol": {
+			"keccak256": "0xfe62030301162c533457a6812d69187e52f3a54e531c27d95d3143552b681f4e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://69ddfce4582a4743c4f2bbc2f6b3be95fd55e3dda2ec703ca140a1bd4ae384e8",
-				"dweb:/ipfs/QmVXrHdgGr3WJekbw6wBhWtPMQwxBvngi2N8xmU6vCmAxq"
+				"bzz-raw://51b6b7fd005a0c5dd3ac95081ec3ef93d28e5bff4bb1e1bcc748bfd5ae5ae803",
+				"dweb:/ipfs/QmZL9bG2NFV3gMw3cBvQaU4nsgpJLrvQwNSf8fgi3nY5JX"
 			]
 		}
 	},

@@ -13,12 +13,12 @@
 						"type": "address"
 					}
 				],
-				"name": "balanceRecieved",
+				"name": "addressBalances",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -26,28 +26,14 @@
 			},
 			{
 				"inputs": [],
-				"name": "recieveMoney",
+				"name": "deposit",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint8",
-						"name": "_amount",
-						"type": "uint8"
-					}
-				],
-				"name": "withdrawMoney",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -63,7 +49,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics/ExampleExceptionRequire.sol": "ExampleExceptionRequire"
+			"contracts/Basics/ExampleContractCall.sol": "ContractOne"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -77,12 +63,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics/ExampleExceptionRequire.sol": {
-			"keccak256": "0x21cfca39464e3af74c6fc923e126fa78b5b5e1ba225a1bb40de608863f5f5bf5",
+		"contracts/Basics/ExampleContractCall.sol": {
+			"keccak256": "0xfe62030301162c533457a6812d69187e52f3a54e531c27d95d3143552b681f4e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://32533c37b461ffe7c276156517ac8fd59262a81b8f785e7905553a035115bc7c",
-				"dweb:/ipfs/QmccXzeTQpTSFPA8A74tLPkYFZ873cWb2m6cmZUL7jMZYo"
+				"bzz-raw://51b6b7fd005a0c5dd3ac95081ec3ef93d28e5bff4bb1e1bcc748bfd5ae5ae803",
+				"dweb:/ipfs/QmZL9bG2NFV3gMw3cBvQaU4nsgpJLrvQwNSf8fgi3nY5JX"
 			]
 		}
 	},
