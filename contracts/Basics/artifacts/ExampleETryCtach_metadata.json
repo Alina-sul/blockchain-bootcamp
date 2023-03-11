@@ -63,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics/ExampleTryCatch.sol": "ExampleExceptionRequire"
+			"contracts/Basics/ExampleTryCatch.sol": "ExampleETryCtach"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -78,11 +78,11 @@
 	},
 	"sources": {
 		"contracts/Basics/ExampleTryCatch.sol": {
-			"keccak256": "0x21cfca39464e3af74c6fc923e126fa78b5b5e1ba225a1bb40de608863f5f5bf5",
+			"keccak256": "0xd67ed706724beaca6532c231f05c94c058a7ae5640424f706d4a1277ec56db02",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://32533c37b461ffe7c276156517ac8fd59262a81b8f785e7905553a035115bc7c",
-				"dweb:/ipfs/QmccXzeTQpTSFPA8A74tLPkYFZ873cWb2m6cmZUL7jMZYo"
+				"bzz-raw://52731b59c72bfa66f725cefe93b7aa0b5dcca0420a3378ad2689eb4801a204ab",
+				"dweb:/ipfs/QmWNdpUjXqdNnxhBVHRYQnknMrwRMvxFAdUmSXPj9snZr7"
 			]
 		}
 	},
