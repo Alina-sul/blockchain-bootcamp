@@ -6,6 +6,23 @@
 	"output": {
 		"abi": [
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "lastFunctionCalled",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "lastValueSent",
 				"outputs": [
@@ -17,6 +34,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -32,7 +53,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics/ExampleFallback.sol": "ExamplePayableMod"
+			"contracts/Basics/ExampleFallback.sol": "ExampleFallback"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -47,11 +68,11 @@
 	},
 	"sources": {
 		"contracts/Basics/ExampleFallback.sol": {
-			"keccak256": "0x5a2c54e4f554395c2ec80617c3b9360c2633af617f83c8d5c58d951a40c9a162",
+			"keccak256": "0xc5bc54ee4b17f455a0da679709d114656c894331454610142a81586117710f0d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bad9b959138c0d76de9458f6e2a48e8c11b93076a841dba471c1e3645c1b04e0",
-				"dweb:/ipfs/QmdLGyUpLkF7NCC63WezhhbN93YyRQZfz2F678EecWdUPv"
+				"bzz-raw://45b1c4b94129a8953b086600157ba9e9e14c0cbd88a58c609be4d500455e5105",
+				"dweb:/ipfs/QmPXbGL29rBZngh1uRikRonmbCKyK2KFGZD2i43XjGEE8q"
 			]
 		}
 	},

@@ -11,7 +11,7 @@ contract ExamplePayableMod {
             myString = _newStr;
         } else {
             // transfer the value from the SC to the address
-            payable(msg.sender).transfer(msg.value)
+            payable(msg.sender).transfer(msg.value);
         }
     }
 
