@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newStr",
+						"type": "string"
+					}
+				],
+				"name": "updateString",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Basics/ExamplePayableMod.sol": "ExamplePayableMod"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Basics/ExamplePayableMod.sol": {
+			"keccak256": "0xe20486ca005f1f217d5258f82a56dea8b72b57e5e589188d5e880dc3a47fabf3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7e2fd7e316bf5d64579b2476ee1b4298ceff17fda28f89120c6a1d32853ca623",
+				"dweb:/ipfs/QmQZ9ZTLchuUWSPrHkswvtUwUpwRBqYw3V8R5BFyoUwUaE"
+			]
+		}
+	},
+	"version": 1
+}
