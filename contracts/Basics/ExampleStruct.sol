@@ -6,6 +6,7 @@ contract Wallet {
 
     address sender;
     uint valueSent;
+    PaymentRecieved payment;
 
     function payContract() public payable {
         payment = new PaymentRecieved(msg.sender, msg.value);

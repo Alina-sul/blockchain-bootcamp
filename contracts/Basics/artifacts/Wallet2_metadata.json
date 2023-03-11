@@ -11,6 +11,24 @@
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payment",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -26,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics/ExampleStruct.sol": "Wallet"
+			"contracts/Basics/ExampleStruct.sol": "Wallet2"
 		},
 		"evmVersion": "london",
 		"libraries": {},
