@@ -6,6 +6,43 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "getAddition",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMyStorageVariable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "myStorageVariable",
 				"outputs": [
@@ -16,6 +53,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newVar",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyStorageVariable",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +82,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics/ExamplePayableMod.sol": "ExampleViewPure"
+			"contracts/Basics/ExampleViewPure.sol": "ExampleViewPure"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +96,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics/ExamplePayableMod.sol": {
-			"keccak256": "0x86822788c583293a7516a97ccb595eb346df26ab2e5d07e9a8e2e35b05b670c5",
+		"contracts/Basics/ExampleViewPure.sol": {
+			"keccak256": "0x49c3b109ca83176d53f442d6e2fc54e2d1bd287fce8a61e33de2962f43fc773d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://53f6a08a4c69490bde3c1663440b1ec26adfba7b114c417c1b2849f4d07d9d77",
-				"dweb:/ipfs/QmYQhKPxVhtve4FyMa1MVhMc6b1sEvVu5U6ewDXx5kz2VC"
+				"bzz-raw://0d533d5cb8e2e8560af9a6ee39aeefcc6c7050eaf8fdc1850a5b0c8641024e47",
+				"dweb:/ipfs/QmcQmCbc7gFNZnMYchxWEm86rRQQZyTPrMAZWwL7x5M3Gs"
 			]
 		}
 	},

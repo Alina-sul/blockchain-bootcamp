@@ -7,26 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "myString",
+				"name": "balanceRecieved",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_newStr",
-						"type": "string"
-					}
-				],
-				"name": "updateString",
+				"inputs": [],
+				"name": "deposit",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
@@ -45,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics/ExamplePayableMod.sol": "ExamplePayableMod"
+			"contracts/Basics/wallet/SendMoneyExample.sol": "SendWithdrawMoney"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics/ExamplePayableMod.sol": {
-			"keccak256": "0xae022585765a60959697c4951b7dd58d6d96138e50c950fc4cbfc046cbb44d58",
+		"contracts/Basics/wallet/SendMoneyExample.sol": {
+			"keccak256": "0xe3b44e1abfa3171672957a27eeadd7fcd46ef74e4394d1f06ea7135c7cfa03c2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://837c25534b49f93572049964a9a6a85db4aeca43fde5ac2cf6e81f2bc5a7e030",
-				"dweb:/ipfs/QmVyBm9DT4WYyhf73E5jKdbQnw7Z15JBjXT5TJ3S4RvoaX"
+				"bzz-raw://038e104f66b6017c4eee1832c74f4a2b7ddf190bf9ccfb1b7e1751b580d6699d",
+				"dweb:/ipfs/QmQghnQsqas7UzaQDmaki4vZQYMuaLGuRUrQGTWASNsB8o"
 			]
 		}
 	},

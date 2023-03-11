@@ -1,18 +1,18 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.14+commit.80d49f37"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "myString",
+				"name": "myBool",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "bool",
 						"name": "",
-						"type": "string"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -21,14 +21,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_newStr",
-						"type": "string"
+						"internalType": "bool",
+						"name": "_myBool",
+						"type": "bool"
 					}
 				],
-				"name": "updateString",
+				"name": "setMyBool",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Basics/ExamplePayableMod.sol": "ExamplePayableMod"
+			"contracts/Basics/ExampleBoolean.sol": "ExampleBoolean"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Basics/ExamplePayableMod.sol": {
-			"keccak256": "0xae022585765a60959697c4951b7dd58d6d96138e50c950fc4cbfc046cbb44d58",
+		"contracts/Basics/ExampleBoolean.sol": {
+			"keccak256": "0xc0624c2c2585c073623a3a74adbcecc49dfe8c7c8f06d93075af2fa850d5d483",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://837c25534b49f93572049964a9a6a85db4aeca43fde5ac2cf6e81f2bc5a7e030",
-				"dweb:/ipfs/QmVyBm9DT4WYyhf73E5jKdbQnw7Z15JBjXT5TJ3S4RvoaX"
+				"bzz-raw://542ac76a39d55a91588230a494c44380ea987c187f88b24361847344aa317065",
+				"dweb:/ipfs/QmWYFQr6fk9oJEnPYnwRHasozErYWc7TVFNKstXFTRdVo8"
 			]
 		}
 	},
